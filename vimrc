@@ -12,7 +12,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Ignore some folders and files for CtrlP indexing
 let g:ctrlp_custom_ignore = {
-\ 'dir': '\.git$\|\.yardoc\|public$|log\|tmp$',
+\ 'dir': '\.git$\|\.yardoc\|public$|log\|tmp$|node_modules\',
 \ 'file': '\.so$\|\.dat$|\.DS_Store$'
 \ }
 
